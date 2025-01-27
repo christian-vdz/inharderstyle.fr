@@ -143,11 +143,11 @@ body {
 .sticky-top.navbar-light .navbar-nav .nav-link,
 .sticky-top.navbar-light .navbar-nav .nav-item .nav-link {
     padding: 20px 0;
-    color: var(--bs-dark);
+    color: var(--bs-light);
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-    color: var(--bs-white);
+    color: var(--bs-dark);
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -192,7 +192,7 @@ body {
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: var(--bs-white);
+        background: var(--bs-dark);
     }
 
     .navbar.navbar-expand-lg .navbar-toggler {
@@ -210,7 +210,7 @@ body {
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--bs-dark);
+        color: var(--bs-light);
     }
 
     .navbar-light .navbar-nav .nav-item .nav-link {
@@ -246,7 +246,7 @@ body {
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light);
+        background: var(--bs-dark);
     }
 
     .navbar-light .navbar-nav .nav-link::before {
