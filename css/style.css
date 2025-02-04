@@ -389,12 +389,19 @@ body {
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 140px 0 60px 0;
     transition: 0.5s;
+}
+
+.bg-breadcrumb-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header-bg-1.jpg);
+}
+
+.bg-breadcrumb-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header-bg-2.jpg);
 }
 
 @media (min-width: 992px) {
