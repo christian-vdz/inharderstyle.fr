@@ -49,12 +49,12 @@
         smartSpeed: 1500,
         center: false,
         dots: false,
-        loop: true,
+        loop: false,
         margin: 25,
         nav : true,
         navText : [
-            '<i class="fa fa-angle-right"></i>',
-            '<i class="fa fa-angle-left"></i>'
+            '<i class="fa fa-angle-left"></i>',
+            '<i class="fa fa-angle-right"></i>'
         ],
         responsiveClass: true,
         responsive: {
@@ -133,4 +133,3 @@
 
 
 })(jQuery);
-
