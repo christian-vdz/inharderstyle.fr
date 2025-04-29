@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /.github/
+Disallow: .gitignore
+Disallow: renovate.json
+Sitemap: https://inharderstyle.fr/sitemap.xml
